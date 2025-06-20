@@ -8,15 +8,5 @@ import {
 import Image from "next/image";
 
 export default function Home() {
-  return (
-    <div className="m-10">
-      <SignedOut>
-        <SignInButton />
-      </SignedOut>
-
-      <SignedIn>
-        <UserButton />
-      </SignedIn>
-    </div>
-  );
+  return <div className="m-10">Home Page</div>;
 }

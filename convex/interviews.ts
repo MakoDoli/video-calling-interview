@@ -37,7 +37,7 @@ export const getInterviewByStreamCallId = query({
   handler: async (ctx, args) => {
     return await ctx.db
       .query("interviews")
-      .withIndex("by-stream_call_id", (q) =>
+      .withIndex("by_stream_call_id", (q) =>
         q.eq("streamCallId", args.streamCallId)
       )
       .first();
