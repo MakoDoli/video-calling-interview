@@ -9,6 +9,26 @@ export default defineSchema({
     role: v.union(v.literal("candidate"), v.literal("interviewer")),
     clerkId: v.string(),
   }).index("by_clerk_id", ["clerkId"]),
+
+  interviews: defineTable({
+    title: v.string(),
+    description: v.optional(v.string()),
+    startTime: v.number(),
+    endTime: v.optional(v.number()), // updates after interview finishes
+    status: v.string(),
+    streamCallId: v.string(),
+    candidateId: v.string(),
+    interviewerIds: v.array(v.string()),
+  })
+    .index("by_candidate_id", ["candidateId"])
+    .index("by-stream_call_id", ["streamCallId"]),
+
+  comments: defineTable({
+    content: v.string(),
+    rating: v.number(),
+    interviewerId: v.string(),
+    interviewId: v.id("interviews"),
+  }).index("by_interview_id", ["interviewId"]),
 });
 
 // https://fun-skylark-7.clerk.accounts.dev
