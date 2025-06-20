@@ -3,11 +3,11 @@ import React from "react";
 import Link from "next/link";
 import { Button } from "./ui/button";
 import { SparklesIcon } from "lucide-react";
-//import { useUserRole } from "@/hooks/useUserRole";
+import { useUserRole } from "@/hooks/useUserRole";
 
 export default function DasboardBtn() {
-  //   const { isCandidate, isLoading } = useUserRole();
-  //   if (isCandidate || isLoading) return null;
+  const { isCandidate, isLoading } = useUserRole();
+  if (isCandidate || isLoading) return null;
   return (
     <Link href={"/dashboard"}>
       <Button className="gap-2 font-medium" size={"sm"}>
