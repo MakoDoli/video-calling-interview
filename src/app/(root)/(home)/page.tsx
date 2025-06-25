@@ -31,7 +31,7 @@ export default function Home() {
     }
   };
 
-  if (isLoading) return <LoaderUI />;
+  //if (isLoading) return <LoaderUI />;
   return (
     <div className=" container max-w-7xl mx-auto p-6">
       <div className="rounded-lg bg-card p-6 border shadow-sm mb-10">
@@ -55,13 +55,13 @@ export default function Home() {
                 onClick={() => handleQuickAction(action.title)}
               />
             ))}
-            <MeetingModal
-              isOpen={showModal}
-              onClose={() => setShowModal(false)}
-              title={modalType === "join" ? "Join Meeting" : "Start Meeting"}
-              isJoinMeeting={modalType === "join"}
-            />
           </div>
+          <MeetingModal
+            isOpen={showModal}
+            onClose={() => setShowModal(false)}
+            title={modalType === "join" ? "Join Meeting" : "Start Meeting"}
+            isJoinMeeting={modalType === "join"}
+          />
         </>
       ) : (
         <>
