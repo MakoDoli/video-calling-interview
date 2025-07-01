@@ -31,7 +31,7 @@ export default function Home() {
     }
   };
 
-  //if (isLoading) return <LoaderUI />;
+  if (isLoading) return <LoaderUI />;
   return (
     <div className=" container max-w-7xl mx-auto p-6">
       <div className="rounded-lg bg-card p-6 border shadow-sm mb-10">
