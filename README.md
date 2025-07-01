@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎥 CodeCam – Stare, Solve, Succeed
 
-## Getting Started
+Welcome to **CodeCam** — where developers stare into the void (a.k.a. webcam), code under pressure, and sometimes even enjoy it.
 
-First, run the development server:
+This is a video-based mock interview platform built for those brave enough to combine eye contact and algorithmic thinking. Whether you're practicing solo, with a friend, or just rewatching your own facial expressions while debugging — CodeCam has you covered.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Built with modern tools, functional chaos, and minimal backend guilt:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework:** [Next.js](https://nextjs.org/) – because React needs structure sometimes
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/) – utility-first, naming-things-later
+- **UI Library:** [shadcn/ui](https://ui.shadcn.dev/) – clean components, beautiful defaults
+- **Authentication:** [Clerk](https://clerk.dev/) – quick, secure, and painless login
+- **Video SDK:** [Stream](https://getstream.io/) – high-quality video calls that make Google Meet jealous
+- **Code Editor:** [Monaco Editor](https://microsoft.github.io/monaco-editor/) – the same one VS Code uses, because we’re fancy
+- **Database / Logic Layer / Existential Crisis Generator:** [Convex](https://convex.dev/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎯 Features
 
-## Learn More
+What you can do in **CodeCam** (besides question your knowledge of binary trees):
 
-To learn more about Next.js, take a look at the following resources:
+- 🔐 **Secure login** via Clerk – no need to remember that 2008 password
+- 📅 **Schedule interviews** – no need to sit in pajama
+- 🎥 **Join video calls** – live, face-to-face awkward silence
+- 🧠 **Choose a coding question** and a programming language – JavaScript or... you have another option?
+- ✍️ **Write your solution in a built-in Monaco editor** – syntax highlighting and no console.log
+- 📝 **Add comments & ratings** after the interview – because feedback is a gift (that sometimes stings)
+- 🎛️ **Tweak your mic and camera** – or just blame them when your solution fails
+- 🔴 **Record interviews** and rewatch them – for self-growth, or cringe, or both
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+> Sure, this *could* have been a real-time chat app...  
+> But then again, this was supposed to be a **coding interview** – not a texting app with video.  
+> So I gave you a code editor. You're welcome 😎
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Biggest challenge?  
+Definitely **Convex**.
 
-## Deploy on Vercel
+I mean… is it NoSQL? Is it backendless backend? APIs are functions like hooks ? I like hooks.. 🎣
+  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## 🧑‍🔧 Built By and WIth
+
+Dark mode, caffeine and lot of keys
+
+
+---
+
+Thanks for checking out **CodeCam**.  
+⭐ Star it if you like it.  
+🎥 Record yourself using it if you *really* like it.  
+
+
+
+
