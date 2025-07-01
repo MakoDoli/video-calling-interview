@@ -25,7 +25,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Video Call Interview",
+  title: "CodeCam || Video Call Interview",
   description: "Video call interview meeting platform",
 };
 
